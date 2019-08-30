@@ -19,9 +19,10 @@ const predict =async function app(img_output) {
 };
 
 const renderImageLabel = (label) => {
-        preview.innerHTML += `<div class="image-block">
-                              <h2 class="image-block__label">Class Name : ${label[0].className}</h2>
-                              <h2 class="image-block__label">Probability : ${label[0].probability}</h2>
+        probability=Number(label[0].probability).toFixed(2)
+        preview.innerHTML += `<div class="label-block">
+                              <h2 class="label-block__classname">Class Name : ${label[0].className}</h2>
+                              <h2 class="label-block__probability">Probability : ${probability}</h2>
                               </div>`;
 };
 

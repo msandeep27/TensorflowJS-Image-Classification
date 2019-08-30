@@ -13,19 +13,6 @@
   margin: 0 auto;
 }
 
-.section {
-  width: 100%;
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.header{
-  height: 80px;
-  background-color: black;
-  color: white;
-}
 
 .upload {
   /* orange */
@@ -39,23 +26,20 @@
     width: 227px;
 }
 
-.submit{
-  /* pink */
-  background-color: #FFB6C1;
-  height: 80px;
-}
-
-.submit > input{
-  background-color: transparent;
+.button {
+  background-color: #4CAF50; /* Green */
   border: none;
-}
-
-.submit > input:hover, .upload > label:hover{
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
   cursor: pointer;
-  color: #39ff14;
 }
 
-.response{
-  background-color: #FFA500;
-  height: 180px;
+.label-block{
+  background-color: bisque;
+  width: 250px;
 }
