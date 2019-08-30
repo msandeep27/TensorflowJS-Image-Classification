@@ -1,0 +1,61 @@
+*{
+  margin: 4;
+  padding: 4;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: monospace;
+}
+
+.page{
+  display: flex;
+  flex-wrap: wrap;
+  width: 320px;
+  margin: 0 auto;
+}
+
+.section {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header{
+  height: 80px;
+  background-color: black;
+  color: white;
+}
+
+.upload {
+  /* orange */
+  background-color: #FFA500;
+  height: 80px;
+}
+
+.img-display {
+    border: medium dashed indianred;
+    height: 225px;
+    width: 227px;
+}
+
+.submit{
+  /* pink */
+  background-color: #FFB6C1;
+  height: 80px;
+}
+
+.submit > input{
+  background-color: transparent;
+  border: none;
+}
+
+.submit > input:hover, .upload > label:hover{
+  cursor: pointer;
+  color: #39ff14;
+}
+
+.response{
+  background-color: #FFA500;
+  height: 180px;
+}
